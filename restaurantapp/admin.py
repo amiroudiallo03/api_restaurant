@@ -12,5 +12,5 @@ class MenuAdmin(admin.ModelAdmin):
 
 @admin.register(models.Commande)
 class CommandeAdmin(admin.ModelAdmin):
-    list_display = ['personne', 'menu']
+    list_display = ['personne', 'menu', 'date_add', 'date_update', 'status']
     
