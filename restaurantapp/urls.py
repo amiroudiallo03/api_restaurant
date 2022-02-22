@@ -6,5 +6,6 @@ urlpatterns = [
     path('', views.api_client, name='api_client'),
     path('menu', views.api_menu, name='api_menu'),    
     path('commande', views.api_commande, name='api_commande'),    
+    path('index', views.index, name='index'),    
 
 ]

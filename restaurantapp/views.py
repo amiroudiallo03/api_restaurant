@@ -80,3 +80,6 @@ def api_commande(request):
         
 
 
+def index(request):
+
+    return render (request, 'home.html')

@@ -11,7 +11,7 @@ class PersonneSerializers(serializers.ModelSerializer):
 class MenuSerializers(serializers.ModelSerializer):
     class Meta:
         model = models.Menu
-        fields = ['name', 'price']
+        fields = ['name', 'price', 'image']
         
 
 class CommandeSerializers(serializers.ModelSerializer):
